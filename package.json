@@ -1,0 +1,42 @@
+{
+  "name": "dremio-sdk",
+  "version": "0.0.8",
+  "description": "Dremio SDK for JavaScript",
+  "main": "./lib/dremio.js",
+  "scripts": {
+    "test": "standard --fix && mocha $(find test -name '*.js')"
+  },
+  "keywords": [
+    "dremio",
+    "api",
+    "sdk"
+  ],
+  "author": "Paulo Henrique Bruce <bruce@datasprints.com> (https://datasprints.com.br)",
+  "contributors": [
+    "Allan Sene <allan@datasprints.com>",
+    "Hugo Martins <hugo.drooid@gmail.com>",
+    "Raissa Bergamini <raissabergamini@gmail.com>",
+    "Caio Henrique <caio@datasprints.com> (https://datasprints.com.br)",
+    "Marco Antônio Rodrigues <marco@datasprints.com> (https://datasprints.com.br)"
+  ],
+  "license": "Apache-2.0",
+  "preferGlobal": true,
+  "dependencies": {
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4",
+    "validator": "^11.1.0",
+    "verror": "^1.10.0"
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.2.0",
+    "nock": "^11.3.1",
+    "rewire": "^4.0.1",
+    "sinon": "^7.4.2",
+    "standard": "^14.1.0"
+  }
+}
