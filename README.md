@@ -21,6 +21,8 @@ npm install dremio-sdk
 var Dremio = require('dremio-sdk')
 ```
 
+More information about how to use the SDK on [this link](https://www.dremio.com/building-a-javascript-sdk-for-dremio)
+
 ## License
 
 This SDK is distributed under the [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0), see LICENSE.txt and NOTICE.txt for more information.
