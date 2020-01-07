@@ -1,6 +1,6 @@
 {
   "name": "dremio-sdk",
-  "version": "0.0.13",
+  "version": "0.0.14",
   "description": "Dremio SDK for JavaScript",
   "main": "./lib/dremio.js",
   "scripts": {
